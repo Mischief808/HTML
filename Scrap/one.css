@@ -1,6 +1,6 @@
 .homepage
 {
-    position: relative;
+    position:relative;
     justify-content: center;
 
 }
@@ -10,8 +10,8 @@ h5  {
     position:absolute;
     left:8px;
     border-top: 16px;
-    font-size: 25px;
-    color: white;
+    font-size: 28px;
+    color:rgb(7, 255, 172);
 
 
 }
