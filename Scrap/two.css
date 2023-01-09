@@ -1,0 +1,14 @@
+.home
+{
+    position:relative;
+    justify-content: flex-start;
+}
+pre
+{
+
+  font-family:'Times New Roman', Times, serif;
+  color: aquamarine;
+  position: absolute;
+  font-size:2em;
+  text-align:center;
+}
