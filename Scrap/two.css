@@ -15,7 +15,7 @@ p
   left:8px;
 }
 .btn
-{
+{ 
    border:4px;
    padding:10px;
    background-color:aqua;
@@ -38,7 +38,14 @@ p
   border:5px solid red;
   
 }
-.mt-5
-{
-    margin-top:5px;
+
+.one{
+                
+  text-decoration: none;
 }
+.btn-bt
+{
+  
+  color:blanchedalmond;
+}
+
