@@ -1,0 +1,36 @@
+body{
+    background-color:black;
+
+}
+.frm
+{
+    color:mediumspringgreen;
+    position: sticky;
+}
+
+.inp
+{
+    width:300px;
+
+    padding:20px;
+    border:20px solid white;
+    margin:20px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.inpt
+{
+    width:200px;
+    height:70px;
+    padding:20px;
+    margin:20px;
+    border:20px;
+    border-radius:10px 10px 10px 10px;
+}
+.inbtn
+{
+    padding:10px;
+    size:70px;
+    background-color:lime;
+    color:black;
+}
