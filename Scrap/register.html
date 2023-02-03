@@ -1,43 +1,38 @@
 <html>
     <head>
         <title>Scrap-Materials</title>
-        <style>
-            .baz{
-                color:mediumspringgreen;
-                position: sticky;
-            }
-        </style>
+        <link href="./CSS/reg.css" rel="Stylesheet">
 
     </head>
-    <body style="background-color:rgb(10, 10, 10);">
+    <body>
         <nav style="text-align:right;">
             <a href="./Index.html">Home</a>
             <a href="./login.html">Login</a>
         </nav>
-        <form class="baz">
+        <form class="frm">
             <label>UserName</label>
-            <input type="name" placeholder="Enter your name" required tabindex="3"/>
+            <input type="name"  class="inp" placeholder="Enter your name" required tabindex="3"/>
             <br><br>
             <label>Email</label>
-            <input type="email" placeholder="Enter your E-mail ID" required/>
+            <input type="email" class="inp" placeholder="Enter your E-mail ID" required/>
             <br><br>
             <label>Phone Number</label>
-            <input type="number" placeholder="Enter your Number" required tabindex="1"/>
+            <input type="number"class="inp" placeholder="Enter your Number" required tabindex="1"/>
             <br><br>
             <label>Password</label>
-            <input type="password" placeholder="Create your password" required minlength="4" maxlength="9"/>
+            <input type="password" class="inp" placeholder="Create your password" required minlength="4" maxlength="9"/>
             <br><br>
             <label style="text-align: center;">Address</label>
             <textarea cols="40" rows="5" tabindex="2" required></textarea>
             <br><br>
             <label>Country</label>
-            <input type="text" value="india"/>
+            <input type="text" class="inp" value="india"/>
             <br><br>
             <label>City</label>
-            <input type="text" placeholder="Enter Your city" required/>
+            <input type="text" class="inp" placeholder="Enter Your city" required/>
             <br><br>
             <label>state</label>
-            <select>
+            <select class="inpt">
                 <option>Please select</option>
                 <option>Tamilnadu</option>
                 <option>Karnataka</option>
@@ -48,9 +43,9 @@
             </select>
             <br><br> 
             <label>pincode</label>
-            <input type="text" placeholder="Enter your Pincode" required />
+            <input class="inp" type="text" placeholder="Enter your Pincode" required />
             <br><br>
-            <input type="submit" value="Register" style="color: black;background-color:lime"/>
+            <input type="submit" class="inbtn" value="Register"/>
         </form>
     </body>
 </htm>
