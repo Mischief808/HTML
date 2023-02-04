@@ -4,11 +4,12 @@
         <link href="./CSS/reg.css" rel="Stylesheet">
 
     </head>
-    <body>
-        <nav style="text-align:right;">
+    <body>        
+        <nav class="navalign">
             <a href="./Index.html">Home</a>
             <a href="./login.html">Login</a>
         </nav>
+        <div class="container">
         <form class="frm">
             <label>UserName</label>
             <input type="name"  class="inp" placeholder="Enter your name" required tabindex="3"/>
@@ -22,8 +23,8 @@
             <label>Password</label>
             <input type="password" class="inp" placeholder="Create your password" required minlength="4" maxlength="9"/>
             <br><br>
-            <label style="text-align: center;">Address</label>
-            <textarea cols="40" rows="5" tabindex="2" required></textarea>
+            <label>Address</label>
+            <textarea cols="80" rows="10" tabindex="2" required></textarea>
             <br><br>
             <label>Country</label>
             <input type="text" class="inp" value="india"/>
@@ -47,5 +48,6 @@
             <br><br>
             <input type="submit" class="inbtn" value="Register"/>
         </form>
+        </div>
     </body>
 </htm>
