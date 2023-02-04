@@ -17,12 +17,7 @@ a:hover{
     color:rgb(21, 236, 243);
     cursor:grabbing;
 }
-.container
-{
-    height:100%;
-    position:fixed;
 
-}
 .frm
 {
     color:mediumspringgreen;
@@ -58,7 +53,7 @@ a:hover{
     color:black;
     font-size:large;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    align-self: center;
+    left:50%;
 }
 .inbtn:hover{
     cursor:pointer;
@@ -69,4 +64,5 @@ label
     width: 240px;
     display:inline-block;
     text-align:right;
+    font-size: 20px;
 }
