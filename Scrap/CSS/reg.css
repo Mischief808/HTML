@@ -53,11 +53,14 @@ a:hover{
     color:black;
     font-size:large;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    left:50%;
+    display:inline-block;
+    justify-content: center;
+    
 }
 .inbtn:hover{
     cursor:pointer;
     background-color:rgb(212, 35, 228);
+    text-transform: uppercase;
 }
 label
 { 
@@ -66,3 +69,12 @@ label
     text-align:right;
     font-size: 20px;
 }
+.divright
+{
+    align-items: center;
+    right:50%;
+    margin-right:50px;
+}
+.text-center {
+    text-align: center;
+  }
