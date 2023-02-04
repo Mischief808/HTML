@@ -1,5 +1,26 @@
 body{
     background-color:black;
+   
+}
+.navalign
+{
+    text-align: right;
+}
+a{
+    color:lime;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+    word-wrap: break-word;
+}
+a:hover{
+    color:rgb(21, 236, 243);
+    cursor:grabbing;
+}
+.container
+{
+    height:100%;
+    position:fixed;
 
 }
 .frm
@@ -10,21 +31,22 @@ body{
 
 .inp
 {
-    width:300px;
+    width:250px;
     height: 10px;
-    padding:20px;
-    border:20px solid white;
-    margin:20px;
+    padding:15px;
+    border:15px solid white;
+    margin:15px;
     border-radius: 10px 10px 10px 10px;
+    grid-row: auto;
 
 }
 .inpt
 {
     width:200px;
     height:70px;
-    padding:20px;
-    margin:20px;
-    border:20px;
+    padding:15px;
+    margin:15px;
+    border:15px;
     border-radius:10px 10px 10px 10px;
 }
 .inbtn
@@ -36,8 +58,15 @@ body{
     color:black;
     font-size:large;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
 }
 .inbtn:hover{
     cursor:pointer;
-    background-color:rgba(8, 218, 155, 0.911);
+    background-color:rgb(212, 35, 228);
+}
+label
+{ 
+    width: 240px;
+    display:inline-block;
+    text-align:right;
 }
