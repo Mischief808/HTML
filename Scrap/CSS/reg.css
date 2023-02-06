@@ -17,7 +17,22 @@ a:hover{
     color:rgb(21, 236, 243);
     cursor:grabbing;
 }
-
+.container{
+    height: 80vh;
+    width:1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+input{
+    display: inline;
+}
+.wrapper-right{
+    width: 500px;
+}
+.wrapper-left{
+    width: 500px;
+}
 .frm
 {
     color:mediumspringgreen;
@@ -53,11 +68,11 @@ a:hover{
     color:black;
     font-size:large;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    display:inline-block;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
     
 }
-.inbtn:hover{
+.inbtn:hover{   
     cursor:pointer;
     background-color:rgb(212, 35, 228);
     text-transform: uppercase;
@@ -71,9 +86,9 @@ label
 }
 .divright
 {
-    align-items: center;
-    right:50%;
-    margin-right:50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .text-center {
     text-align: center;
