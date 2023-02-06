@@ -1,58 +1,57 @@
 <html>
-    <head>
-        <title>Scrap-Materials</title>
-        <link href="./CSS/reg.css" rel="Stylesheet">
 
-    </head>
-    <body>        
-        <nav class="navalign">
-            <a href="./Index.html">Home</a>
-            <a href="./login.html">Login</a>
-        </nav>
-        <div class="container">
-        <form class="frm">
-            <label>UserName</label>
-            <input type="name"  class="inp" placeholder="Enter your name" required tabindex="3"/>
-            <br><br>
-            <label>Email</label>
-            <input type="email" class="inp" placeholder="Enter your E-mail ID" required/>
-            <br><br>
-            <label>Phone Number</label>
-            <input type="number"class="inp" placeholder="Enter your Number" required tabindex="1"/>
-            <br><br>
-            <label>Password</label>
-            <input type="password" class="inp" placeholder="Create your password" required minlength="4" maxlength="9"/>
-            <br><br>
-            <label>Address</label>
-            <textarea cols="80" rows="10" tabindex="2" required></textarea>
-            <br><br>
-            <label>Country</label>
-            <input type="text" class="inp" value="india"/>
-            <br><br>
-            <label>City</label>
-            <input type="text" class="inp" placeholder="Enter Your city" required/>
-            <br><br>
-            <label>State</label>
-            <select class="inpt">
-                <option>Please select</option>
-                <option>Tamilnadu</option>
-                <option>Karnataka</option>
-                <option>Kerala</option>
-                <option>Andhra-Pradesh</option>
-                <option>Telangana</option>
-                <option>Maharashtra</option>
-            </select>
-            <br><br> 
-            <label>Pincode</label>
-            <input class="inp" type="text" placeholder="Enter your Pincode" required />
-            <br><br>
+<head>
+    <title>Scrap-Materials</title>
+    <link href="./CSS/reg.css" rel="Stylesheet">
+
+</head>
+
+<body>
+    <nav class="navalign">
+        <a href="./Index.html">Home</a>
+        <a href="./login.html">Login</a>
+    </nav>
+    <div >
+        <form class="frm container" >
+            <div class="wrapper-right">
+                
+                <span class="form-span">UserName:</span><input type="name" class="inp" placeholder="Enter your name" required tabindex="3" />
+                <br><br>
+                <span class="form-span">Email:</span><input type="email" class="inp" placeholder="Enter your E-mail ID" required />
+                <br><br>
+                 <span class="form-span">Phone Number:</span><input type="number" class="inp" placeholder="Enter your Number" required tabindex="1" />
+                <br><br>
+                <span class="form-span">PassWord:</span><input type="password" class="inp" placeholder="Create your password" required minlength="4"
+                    maxlength="9" />
+                <br><br>
+                <span class="form-span">Address:</span><textarea cols="60" rows="10" tabindex="2" required></textarea>
+                <br><br>
+            </div>
+            <div class="wrapper-left">
+               <span >Country:</span> <input type="text" class="inp" value="india" />
+                <br><br>
+                <span>City:</span><input type="text" class="inp" placeholder="Enter Your city" required />
+                <br><br>
+                <span>State:</span><select class="inpt">
+                    <option>Please select</option>
+                    <option>Tamilnadu</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Andhra-Pradesh</option>
+                    <option>Telangana</option>
+                    <option>Maharashtra</option>
+                </select>
+                <br><br>
+                <span>PinCode:</span><input class="inp" type="text" placeholder="Enter your Pincode" required />
+                <br><br>
+            </div>
             <div class="divright">
-            <button type="submit" class="inbtn">Register</button>
-            <div class="text-center">
+                <button type="submit" class="inbtn">Register</button>
+                <!-- <div class="text-center">
   <button type="submit">Text-align: center</button>
-           </div>
+           </div> -->
             </div>
         </form>
-        </div>
-    </body>
+    </div>
+</body>
 </htm>
