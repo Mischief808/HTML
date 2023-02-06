@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background:linear-gradient(to right,rgb(9, 1, 54),rgb(31, 0, 0));
    
 }
 .navalign
@@ -23,6 +23,10 @@ a:hover{
     margin-inline: auto;
     display: flex;
     flex-flow: row wrap;
+}
+.form-span
+{
+font-size: 20px;
 }
 input{
     display: inline;
@@ -77,19 +81,8 @@ input{
     background-color:rgb(212, 35, 228);
     text-transform: uppercase;
 }
-label
-{ 
-    width: 240px;
-    display:inline-block;
-    text-align:right;
-    font-size: 20px;
-}
-.divright
-{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
+
+
 .text-center {
     text-align: center;
   }
