@@ -7,7 +7,7 @@
 body{
     margin:0;
     padding:0;
-    background:linear-gradient(to right,rgb(27, 26, 26),rgb(3, 250, 250));
+    background:conic-gradient( rgb(10, 209, 199),rgb(7, 224, 72),rgb(9, 186, 240));
 }
 .calculator-grid
 {
@@ -19,7 +19,7 @@ body{
     grid-template-rows:minmax 120px repeat(5,100px);
 }
 .calculator-grid > button {
-    cursor:pointer;
+    cursor:grab;
     border:1px solid white;
     outline:none;
     font-size:2.5rem;
