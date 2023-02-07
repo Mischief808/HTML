@@ -7,7 +7,7 @@ p
 {
 
   font-family:'Times New Roman', Times, serif;
-  color: aquamarine;
+  color: rgb(0, 247, 255);
   position: absolute;
   font-size:2em;
   text-align:center;
@@ -61,4 +61,5 @@ p
   color:lime;
   font-size: 20px;
 }
+
 
