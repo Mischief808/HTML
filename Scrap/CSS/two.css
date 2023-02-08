@@ -1,3 +1,8 @@
+
+marquee
+{
+  color:rgb(0, 0, 53);
+}
 .home
 {
     position:relative;
@@ -5,20 +10,20 @@
 }
 p
 {
-
   font-family:'Times New Roman', Times, serif;
-  color: rgb(0, 247, 255);
+  color:blanchedalmond;
   position: absolute;
   font-size:2em;
   text-align:center;
   border-top:16px;
-  left:8px;
+  left:8px; 
 }
+
 .btn
 { 
    border:4px;
    padding:10px;
-   background-color:aqua;
+   background-color:rgb(0, 255, 255);
    cursor:grab;
   
   
@@ -36,30 +41,32 @@ p
   color:aqua;
   padding:10px;
   border:5px;
+  width:200px;
+  height:50px;
   border-radius:8px 8px 8px 8px;
   
 }
 
-.one{
-                
-  text-decoration: none;
-}
 .btn-bt
 {
   
-  color:blanchedalmond;
+  background-color:rgb(49, 224, 26);
+  width:160px;
+  height:40px;
 }
 .btn-anchor
 {
-  background-color:rgb(26, 230, 128);
   text-decoration: none;
-  width: 250px;
-  height:50px;
+  color:rgb(143, 5, 5);
 }
 .lbl
 {
   color:lime;
   font-size: 20px;
 }
+.bas
+ {
+    color:rgb(103, 103, 214)
+ }
 
 
