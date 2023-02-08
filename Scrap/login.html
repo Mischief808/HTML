@@ -4,27 +4,46 @@
         <link rel="stylesheet" href="./CSS/two.css"/>
         <script src="./Error.js" type="text/javscript"></script>
     </head>
-    <body style="background-color:black;">
+    <body>
         <nav style="text-align: right;">
             <a class="bas" href="./Index.html">Home</a>
             <a class="bas" href="./about.html">About Us</a>
             <a class="bas" href="./contact.html">Contact Us</a>
         </nav>
         
-        <form style="text-align:center;">
+        <form onsubmit="return test()" style="text-align:center;">
             <label class="lbl">UserName:</label>
-            <input type="name" placeholder="Enter Username" required class="lab"/>
+            <input type="name" placeholder="Enter Username" id="nameuser" class="lab"/>
             <br><br>
+            <span id="nameof" style="color:darkgreen;"></span><br><br>
             <label class="lbl">Password:</label>
-            <input type="password" placeholder="Enter Password" required class="lab"/>
+            <input type="password" placeholder="Enter Password" id="userpassword" class="lab"/>
             <br><br>
+            <span id="userpass" style="color:darkblue;"></span><br><br>
             <input type="submit"class="btn" value="Login"/>
         </form>
         <form style="text-align: center;">
         <button class="btn-bt"><a class="btn-anchor" href="#">Not yet Registered?</a></button><br><br> 
         <button class="btn-bt"><a href="./register.html" class="btn-anchor">Click Here To Register</a></button>
         </form>
-        
-       
+        <script>
+            function test()
+            { 
+                let name=document.getElementById("nameuser").value;
+                let password=document.getElementById('userpassword').value;
+                console.log(name)
+                console.log(password.length)
+                if(name=="")
+                {
+                     document.getElementById("nameof").innerHTML="Please Enter UserName";
+
+                }
+                if(password.length<4)
+                {
+                   document.getElementById('userpass').innerHTML="Please Enter Password more than 4 characters";
+                }
+                return false;
+            }
+        </script>       
     </body>
 </html>
