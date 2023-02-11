@@ -1,13 +1,11 @@
-body{
-  background:black;
-}
+
 marquee
 {
-  color:rgb(18, 223, 52);
+  color:darkgreen;
 }
 .align
 {
-  text-align: right;
+  text-align: center;
 }
 .home
 {
@@ -16,8 +14,15 @@ marquee
 }
 a 
 {
-  color:aqua;
   text-decoration:none;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+
+}
+a:hover
+{
+  color:darkorange;
+  cursor:move;
 }
 p
 {
